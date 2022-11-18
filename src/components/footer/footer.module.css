@@ -1,0 +1,106 @@
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #091133;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #6f7cb2;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #222f65;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #37447e;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #5d6970;
+  margin-top: 60px;
+}
+
+.button {
+  /* padding: 5px 50px; */
+  width: 160px;
+  height: 28px;
+  background-color: #111b47;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #fbfbfd;
+  cursor: pointer;
+  /* margin-bottom: 200px; */
+}
+
+.semicircle {
+  height: 2rem;
+  border-radius: 0 0 50% 50%;
+  background-color: white !important;
+}
+
+.companyname {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939ea4;
+}
+
+.Landie {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447e;
+}
+
+.line {
+  height: 1px;
+  background: #cdd1d4;
+  margin-bottom: 100px;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.navbar-items {
+  margin-left: -5%;
+}
+.navbar-items ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-items li {
+  display: inline-block;
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #505f98;
+  cursor: pointer;
+}

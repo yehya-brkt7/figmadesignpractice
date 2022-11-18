@@ -1,0 +1,100 @@
+.header {
+  font-weight: 500;
+  font-size: 45px;
+  text-align: left;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #091133;
+}
+
+.paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #505f98;
+}
+
+.image {
+  width: 80%;
+  height: auto;
+  border-radius: 15%;
+  box-shadow: 6px 6px 8px 6px #091133;
+}
+
+.purplebutton {
+  /* padding: 5px 50px; */
+  width: 160px;
+  height: 28px;
+  background-color: #111b47;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #fbfbfd;
+  cursor: pointer;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.whitebutton {
+  /* padding: 5px 50px; */
+  width: 160px;
+  height: 28px;
+  background-color: white;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #111b47;
+  cursor: pointer;
+}
+
+.smallerheader {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: left;
+  color: #091133;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #091133;
+  /* text-align: left !important; */
+}
+
+.description {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5d6970;
+}
+
+.shape {
+  z-index: -1;
+  position: absolute;
+  width: max-content;
+  resize: both;
+  overflow: auto;
+}
+
+.svg {
+  /* width: 1349px; */
+  width: 98.7vw;
+  /* min-height: 1161px; */
+  height: 178vh;
+}
+
+@media only screen and (max-width: 900px) {
+  .shape {
+    display: none;
+  }
+}
